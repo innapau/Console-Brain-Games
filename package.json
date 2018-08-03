@@ -1,6 +1,6 @@
 {
   "name": "brain-games-inn",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "BrainGames is a level 1 project on Hexlet",
   "main": "",
   "keywords": [
@@ -11,7 +11,8 @@
   ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"
@@ -35,6 +36,7 @@
     "eslint-plugin-import": "^2.13.0"
   },
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   }
 }
