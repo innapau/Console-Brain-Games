@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
 // Welcome message and rules description.
-const greeting = (description) => {
+export const greeting = (description) => {
   console.log('Welcome to the Brain Games!');
   if (description === String(description)) {
     console.log(description);
@@ -10,7 +10,7 @@ const greeting = (description) => {
 };
 
 // Ask for user name.
-const getUserName = () => {
+export const getUserName = () => {
   const name = readlineSync.question('\nMay I have your name? ');
   console.log(`Hello, ${name}!\n`);
 
