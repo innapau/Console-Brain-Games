@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
 // Welcome message and rules description.
-export const greeting = (description) => {
+const greeting = (description) => {
   console.log('Welcome to the Brain Games!');
   if (description === String(description)) {
     console.log(description);
@@ -10,7 +10,7 @@ export const greeting = (description) => {
 };
 
 // Ask for user name.
-export const getUserName = () => {
+const getUserName = () => {
   const name = readlineSync.question('\nMay I have your name? ');
   console.log(`Hello, ${name}!\n`);
 
@@ -18,8 +18,10 @@ export const getUserName = () => {
 };
 
 // Main game cycle.
-const gameEngine = (userName, gameData) => {
-  const questionCount = 3;
+const questionCount = 3;
+const gameStart = (description, gameData) => {
+  greeting(description);
+  const userName = getUserName();
   for (let i = 0; i < questionCount; i += 1) {
     const game = gameData();
     const question = car(game);
@@ -34,12 +36,5 @@ const gameEngine = (userName, gameData) => {
     console.log('Correct!\n');
   }
   console.log(`Congratulations, ${userName}!\n`);
-};
-
-// Launch the game.
-const gameStart = (description, gameData) => {
-  greeting(description);
-  const userName = getUserName();
-  gameEngine(userName, gameData);
 };
 export default gameStart;

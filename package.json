@@ -1,6 +1,6 @@
 {
   "name": "brain-games-inn",
-  "version": "1.2.2",
+  "version": "1.2.31",
   "description": "BrainGames is a level 1 project on Hexlet",
   "main": "",
   "keywords": [
@@ -10,7 +10,6 @@
     "hexlet"
   ],
   "bin": {
-    "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js"
   },
