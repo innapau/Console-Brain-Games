@@ -16,7 +16,7 @@ const gameCalc = () => {
   } else if (getOperator === 1) {
     correctAnswer = n1 - n2;
     operator = '-';
-  } else {
+  } else if (getOperator === 2) {
     correctAnswer = n1 * n2;
     operator = '*';
   }
