@@ -4,7 +4,6 @@ import { cons } from 'hexlet-pairs';
 
 const description = 'Balance the given number.';
 
-
 const sumOfDigits = (number, length) => {
   const str = String(number);
   let result = 0;
@@ -25,12 +24,12 @@ const getBalancedNum = (num) => {
     len -= 1;
     balanced += String(average);
   }
-  return Number(balanced);
+  return balanced;
 };
 
 const gameBalance = () => {
   const question = generateRandInt(1, 9999);
-  const correctAnswer = String(getBalancedNum(question));
+  const correctAnswer = getBalancedNum(question);
   const game = cons(question, correctAnswer);
   return game;
 };
