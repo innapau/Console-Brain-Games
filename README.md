@@ -9,20 +9,31 @@ _A list of CLI games to test you math and logic skills_
 ## Games:
 
 * ###Brain-Even
-        Launch: ` $ brain-even`
-        Rules: Answer 'yes' if the given number is even, otherwise answer 'no'.
+
+    Launch: ` $ brain-even`
+    Rules: Answer 'yes' if the given number is even, otherwise answer 'no'.
+    
 * ###Brain-Calculator
-        Launch: ` $ brain-calc`
-        Rules: Type the result of the expression.
+
+    Launch: ` $ brain-calc`
+    Rules: Type the result of the expression.
+    
 * ###Brain-GCD
-        Launch: ` $ brain-gcd`
-        Rules: Find the greatest common divisor of given numbers.
+
+    Launch: ` $ brain-gcd`
+    Rules: Find the greatest common divisor of given numbers.
+    
 * ###Brain-Balance
-        Launch: ` $ brain-balance`
-        Rules: Balance the given number. A balanced number is a number in which the smallest digit not differs from the largest one by more than 1.
+
+    Launch: ` $ brain-balance`
+    Rules: Balance the given number. A balanced number is a number in which the smallest digit not differs from the largest one by more than 1.
+    
 * ###Brain-Progression
-        Launch: ` $ brain-progression`
-        Rules: Paste a missing number in the progression.
+
+    Launch: ` $ brain-progression`
+    Rules: Paste a missing number in the progression.
+    
 * ###Brain-isPrime
-        Launch: ` $ brain-prime`
-        Rules: Answer 'yes' if the given number is prime, otherwise answer 'no'.
+
+    Launch: ` $ brain-prime`
+    Rules: Answer 'yes' if the given number is prime, otherwise answer 'no'.
