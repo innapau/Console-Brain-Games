@@ -8,32 +8,32 @@ _A list of CLI games to test you math and logic skills_
 
 ## Games:
 
-* ###Brain-Even
+* ### Brain-Even
 
     Launch: ` $ brain-even`
     Rules: Answer 'yes' if the given number is even, otherwise answer 'no'.
     
-* ###Brain-Calculator
+* ### Brain-Calculator
 
     Launch: ` $ brain-calc`
     Rules: Type the result of the expression.
     
-* ###Brain-GCD
+* ### Brain-GCD
 
     Launch: ` $ brain-gcd`
     Rules: Find the greatest common divisor of given numbers.
     
-* ###Brain-Balance
+* ### Brain-Balance
 
     Launch: ` $ brain-balance`
     Rules: Balance the given number. A balanced number is a number in which the smallest digit not differs from the largest one by more than 1.
     
-* ###Brain-Progression
+* ### Brain-Progression
 
     Launch: ` $ brain-progression`
     Rules: Paste a missing number in the progression.
     
-* ###Brain-isPrime
+* ### Brain-isPrime
 
     Launch: ` $ brain-prime`
     Rules: Answer 'yes' if the given number is prime, otherwise answer 'no'.
