@@ -5,7 +5,7 @@ _A list of CLI games to test you math and logic skills_
 
 ## Installation:
 
-` $ npm install -g brain-games-inn` - install
+` $ npm install -g brain-games-inn` 
 
 ## Games:
 
