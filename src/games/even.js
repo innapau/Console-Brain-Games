@@ -2,7 +2,7 @@ import gameStart from '..';
 import generateRandInt from '../utils';
 import { cons } from 'hexlet-pairs';
 
-const description = "Answer 'yes' if number even, otherwise answer no'.";
+const description = "Answer 'yes' if number even, otherwise answer 'no'.";
 const isEven = num => num % 2 === 0;
 
 const gameIsEven = () => {
